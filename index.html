@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Visions of Algonquin</title>
+    <title>Unity WebGL Player | New Unity Project</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body style="background-color: black;">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/exesv4.loader.js";
+      var loaderUrl = buildUrl + "/exesv5.loader.js";
       var config = {
-        dataUrl: buildUrl + "/exesv4.data",
-        frameworkUrl: buildUrl + "/exesv4.framework.js",
-        codeUrl: buildUrl + "/exesv4.wasm",
+        dataUrl: buildUrl + "/exesv5.data",
+        frameworkUrl: buildUrl + "/exesv5.framework.js",
+        codeUrl: buildUrl + "/exesv5.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "New Unity Project",
